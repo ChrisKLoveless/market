@@ -3,7 +3,9 @@ import React from "react";
 function Header() {
   return (
     <React.Fragment>
-      <h1>Avery's Organics</h1>
+      <div id="header">
+        <h1>Avery's Organics</h1>
+      </div>
     </React.Fragment>
   );
 }

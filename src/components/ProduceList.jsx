@@ -274,12 +274,14 @@ const availableProduce = [
 function ProduceList(props) {
   return (
     <React.Fragment>
+      <div id="produce-list">
       {availableProduce.map((produce, index) =>
           <Produce 
           month={produce.month}
-          selection={produce.selection.join(" | ")}
+          selection={produce.selection}
           key={index} />
           )}
+      </div>
           </React.Fragment>
   );
 }

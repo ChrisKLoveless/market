@@ -45,6 +45,7 @@ const marketSchedule = [
 function MarketSchedule() {
   return (
     <React.Fragment>
+      <div id="market-schedule">
       {marketSchedule.map((day, index) =>
         <MarketDay 
           day={day.day}
@@ -53,6 +54,7 @@ function MarketSchedule() {
           booth={day.booth}
           key={index} />
       )}
+      </div>
     </React.Fragment>
   );
 }

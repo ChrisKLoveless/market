@@ -6,8 +6,9 @@ function Produce(props) {
   return (
     <React.Fragment>
         <h3>{props.month}</h3>
-        <p>{props.selection}</p>
-        <hr />
+        {props.selection.map((produce) => 
+          <p>{produce}</p>
+        )}
     </React.Fragment>
   );
 }

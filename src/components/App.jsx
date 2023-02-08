@@ -9,10 +9,10 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <hr />
+      <div id="content-wrapper">
       <MarketSchedule />
-      <hr />
       <ProduceList />
+      </div>
     </React.Fragment>
   );
 }

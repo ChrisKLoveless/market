@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* #content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+#market-schedule {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px black;
+
+}
+
+#produce-list {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px black;
+} */
+
